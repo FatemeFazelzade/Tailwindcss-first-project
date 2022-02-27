@@ -19,6 +19,7 @@
     "tailwindcss-animatecss": "^1.0.7"
   },
   "devDependencies": {
-    "onchange": "^7.1.0"
+    "onchange": "^7.1.0",
+    "tailwindcss-textshadow": "^2.1.3"
   }
 }

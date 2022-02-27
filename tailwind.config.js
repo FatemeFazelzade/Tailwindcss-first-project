@@ -30,19 +30,31 @@ module.exports = {
         "roboto" : ["'Roboto Serif', sans-serif"]
       },
       keyframes: {
-        mymove: {
-          '0%, 100%': { top: '20rem' },
-          '50%': { top: '0rem' },
+        float: {
+          '0%': {
+            opacity: '0',
+            transform: 'translatey(0px)'
+        },
+        '50%': {
+          opacity: '0.6',
+            transform: 'translatey(-50px)'
+        },
+        '100%': {
+          opacity: '1',
+          transform: 'translatey(0px)'
+      },
     }
   },
-  },
+  animation: {
+    float: 'float 1.5s ease-in-out',
+},
 },
   variants: {
     extend: {},
   },
   plugins: [
     require('tailwindcss-animatecss')({
-      classes: ['animate__animated', 'animate__fadeIn', 'animate__bounceIn', 'animate__lightSpeedOut', 'animate__bounceInUp', 'animate__delay', 'animate__delay-1s', 'animate__delay-2s', 'animate__delay-5s', 'animate__infinite' ],
+      classes: ['animate__animated', 'animate__fadeIn', 'animate__flash', 'animate__delay-1s', 'animate__delay-2s', 'animate__delay-5s', 'animate__infinite' ],
       settings: {
         animatedSpeed: 1000,
         heartBeatSpeed: 1000,
@@ -53,5 +65,5 @@ module.exports = {
       },
       variants: ['responsive', 'hover', 'reduced-motion'],
     }),
-  ],
-}
+    require('tailwindcss-textshadow')
+  ],},}
