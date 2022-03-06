@@ -552,9 +552,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 480px){
+@media (min-width: 640px){
   .container{
-    max-width: 480px;
+    max-width: 640px;
   }
 }
 
@@ -564,15 +564,15 @@ video {
   }
 }
 
-@media (min-width: 976px){
+@media (min-width: 1024px){
   .container{
-    max-width: 976px;
+    max-width: 1024px;
   }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1280px){
   .container{
-    max-width: 1440px;
+    max-width: 1280px;
   }
 }
 
@@ -14814,7 +14814,7 @@ video {
 }
 
 .max-w-screen-sm{
-  max-width: 480px;
+  max-width: 640px;
 }
 
 .max-w-screen-md{
@@ -14822,11 +14822,11 @@ video {
 }
 
 .max-w-screen-lg{
-  max-width: 976px;
+  max-width: 1024px;
 }
 
 .max-w-screen-xl{
-  max-width: 1440px;
+  max-width: 1280px;
 }
 
 .max-w-screen-2xl{
@@ -32781,13 +32781,13 @@ video {
 }
 
 .animate-ping{
-  -webkit-animation: ping 2s cubic-bezier(0, 0, 0.5, 1) infinite;
-          animation: ping 2s cubic-bezier(0, 0, 0.5, 1) infinite;
+  -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+          animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .animate-pulse{
-  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite ease-in-out;
-          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite ease-in-out;
+  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .animate-bounce{
@@ -32800,14 +32800,14 @@ video {
           animation: float 1.5s ease-in-out;
 }
 
-@media (min-width: 480px){
+@media (min-width: 640px){
   .sm\:container{
     width: 100%;
   }
 
-  @media (min-width: 480px){
+  @media (min-width: 640px){
     .sm\:container{
-      max-width: 480px;
+      max-width: 640px;
     }
   }
 
@@ -32817,15 +32817,15 @@ video {
     }
   }
 
-  @media (min-width: 976px){
+  @media (min-width: 1024px){
     .sm\:container{
-      max-width: 976px;
+      max-width: 1024px;
     }
   }
 
-  @media (min-width: 1440px){
+  @media (min-width: 1280px){
     .sm\:container{
-      max-width: 1440px;
+      max-width: 1280px;
     }
   }
 
@@ -47067,7 +47067,7 @@ video {
   }
 
   .sm\:max-w-screen-sm{
-    max-width: 480px;
+    max-width: 640px;
   }
 
   .sm\:max-w-screen-md{
@@ -47075,11 +47075,11 @@ video {
   }
 
   .sm\:max-w-screen-lg{
-    max-width: 976px;
+    max-width: 1024px;
   }
 
   .sm\:max-w-screen-xl{
-    max-width: 1440px;
+    max-width: 1280px;
   }
 
   .sm\:max-w-screen-2xl{
@@ -64946,9 +64946,9 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 480px){
+  @media (min-width: 640px){
     .md\:container{
-      max-width: 480px;
+      max-width: 640px;
     }
   }
 
@@ -64958,15 +64958,15 @@ video {
     }
   }
 
-  @media (min-width: 976px){
+  @media (min-width: 1024px){
     .md\:container{
-      max-width: 976px;
+      max-width: 1024px;
     }
   }
 
-  @media (min-width: 1440px){
+  @media (min-width: 1280px){
     .md\:container{
-      max-width: 1440px;
+      max-width: 1280px;
     }
   }
 
@@ -79208,7 +79208,7 @@ video {
   }
 
   .md\:max-w-screen-sm{
-    max-width: 480px;
+    max-width: 640px;
   }
 
   .md\:max-w-screen-md{
@@ -79216,11 +79216,11 @@ video {
   }
 
   .md\:max-w-screen-lg{
-    max-width: 976px;
+    max-width: 1024px;
   }
 
   .md\:max-w-screen-xl{
-    max-width: 1440px;
+    max-width: 1280px;
   }
 
   .md\:max-w-screen-2xl{
@@ -97082,14 +97082,14 @@ video {
   }
 }
 
-@media (min-width: 976px){
+@media (min-width: 1024px){
   .lg\:container{
     width: 100%;
   }
 
-  @media (min-width: 480px){
+  @media (min-width: 640px){
     .lg\:container{
-      max-width: 480px;
+      max-width: 640px;
     }
   }
 
@@ -97099,15 +97099,15 @@ video {
     }
   }
 
-  @media (min-width: 976px){
+  @media (min-width: 1024px){
     .lg\:container{
-      max-width: 976px;
+      max-width: 1024px;
     }
   }
 
-  @media (min-width: 1440px){
+  @media (min-width: 1280px){
     .lg\:container{
-      max-width: 1440px;
+      max-width: 1280px;
     }
   }
 
@@ -111349,7 +111349,7 @@ video {
   }
 
   .lg\:max-w-screen-sm{
-    max-width: 480px;
+    max-width: 640px;
   }
 
   .lg\:max-w-screen-md{
@@ -111357,11 +111357,11 @@ video {
   }
 
   .lg\:max-w-screen-lg{
-    max-width: 976px;
+    max-width: 1024px;
   }
 
   .lg\:max-w-screen-xl{
-    max-width: 1440px;
+    max-width: 1280px;
   }
 
   .lg\:max-w-screen-2xl{
@@ -129223,14 +129223,14 @@ video {
   }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1280px){
   .xl\:container{
     width: 100%;
   }
 
-  @media (min-width: 480px){
+  @media (min-width: 640px){
     .xl\:container{
-      max-width: 480px;
+      max-width: 640px;
     }
   }
 
@@ -129240,15 +129240,15 @@ video {
     }
   }
 
-  @media (min-width: 976px){
+  @media (min-width: 1024px){
     .xl\:container{
-      max-width: 976px;
+      max-width: 1024px;
     }
   }
 
-  @media (min-width: 1440px){
+  @media (min-width: 1280px){
     .xl\:container{
-      max-width: 1440px;
+      max-width: 1280px;
     }
   }
 
@@ -143490,7 +143490,7 @@ video {
   }
 
   .xl\:max-w-screen-sm{
-    max-width: 480px;
+    max-width: 640px;
   }
 
   .xl\:max-w-screen-md{
@@ -143498,11 +143498,11 @@ video {
   }
 
   .xl\:max-w-screen-lg{
-    max-width: 976px;
+    max-width: 1024px;
   }
 
   .xl\:max-w-screen-xl{
-    max-width: 1440px;
+    max-width: 1280px;
   }
 
   .xl\:max-w-screen-2xl{
@@ -161369,9 +161369,9 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 480px){
+  @media (min-width: 640px){
     .\32xl\:container{
-      max-width: 480px;
+      max-width: 640px;
     }
   }
 
@@ -161381,15 +161381,15 @@ video {
     }
   }
 
-  @media (min-width: 976px){
+  @media (min-width: 1024px){
     .\32xl\:container{
-      max-width: 976px;
+      max-width: 1024px;
     }
   }
 
-  @media (min-width: 1440px){
+  @media (min-width: 1280px){
     .\32xl\:container{
-      max-width: 1440px;
+      max-width: 1280px;
     }
   }
 
@@ -175631,7 +175631,7 @@ video {
   }
 
   .\32xl\:max-w-screen-sm{
-    max-width: 480px;
+    max-width: 640px;
   }
 
   .\32xl\:max-w-screen-md{
@@ -175639,11 +175639,11 @@ video {
   }
 
   .\32xl\:max-w-screen-lg{
-    max-width: 976px;
+    max-width: 1024px;
   }
 
   .\32xl\:max-w-screen-xl{
-    max-width: 1440px;
+    max-width: 1280px;
   }
 
   .\32xl\:max-w-screen-2xl{

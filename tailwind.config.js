@@ -19,12 +19,7 @@ module.exports = {
         "mypink" : "#DB2955",
         "myblue" : "#278AB0"
       },
-      screens: {
-        sm: '480px',
-        md: '768px',
-        lg: '976px',
-        xl: '1440px',
-      },
+      
       fontFamily: {
         "readex" : ["'Readex Pro', sans-serif"],
         "roboto" : ["'Roboto Serif', sans-serif"]
