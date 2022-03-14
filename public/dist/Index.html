@@ -4,28 +4,27 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, inithail-scale=1.0">
-        <title>Tailwind</title>
+        <title>Nonce Academy</title>
+        <link rel = "icon" href = "./Pics/path3-3.svg"  type = "image/x-icon">
         <link href="./styles.css" rel="stylesheet">
-        <!-- <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      /> -->
-      
+        <link href="./scroll.css" rel="stylesheet">
+        <script  src="./scroll.js"></script>
     </head>
-    <body class="text-gray-700 font-readex overflow-x-hidden">
-        <nav class="flex justify-between flex-row items-center w-screen h-14">
+    <body class="text-light overflow-x-hidden">
+          
+        <div id="scroll-percent" data-scrollPercentage><div class="percentage">&nbsp;</div></div>
+
+        <nav class="flex justify-between flex-row items-center w-screen h-14 bg-dark">
             <!--lg screen-->
-            <div class="justify-items-end cursor-pointer lg:mx-10 mx-5 my-10 text-current text-bluepurple">
-                <div class="w-14 h-14 mt-2.5">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-                        <path d="m70.76 100.904 24.364-14.067c2.78-1.603 4.876-5.234 4.876-8.446V50.318c0-1.969-.816-3.568-2.238-4.39-1.423-.821-3.215-.728-4.92.255l-6.939 4v-10.45c0-3.21-2.096-6.84-4.876-8.446l-7.591-4.384 5.738-3.309c4.877-2.813 4.877-2.813 4.877-4.16 0-1.346 0-1.348-4.876-4.163L54.81 1.205c-2.78-1.607-6.972-1.607-9.752 0L20.693 15.271c-4.877 2.817-4.877 2.817-4.877 4.156 0 1.339 0 1.339 4.874 4.155l5.742 3.321-7.591 4.384c-2.78 1.605-4.877 5.234-4.877 8.446v10.325L7.16 46.125c-1.704-.985-3.498-1.08-4.92-.259C.817 46.688 0 48.286 0 50.256v28.087c0 3.21 2.097 6.842 4.876 8.446l24.313 14.037c1.704.983 3.5 1.077 4.92.256 1.424-.82 2.24-2.42 2.241-4.388l.007-8.134 8.701 5.024c2.78 1.605 6.972 1.605 9.752 0l8.747-5.05-.006 8.657v.058c0 5.062.003 5.067 1.086 5.75l.155.09c1.138.6 1.138.6 5.968-2.185zM22.975 19.63l-.352-.204.352-.204L47.34 5.156c1.36-.785 3.83-.785 5.187 0l24.366 14.067.36.21-.36.208-8.023 4.627L54.81 16.15c-2.78-1.605-6.972-1.605-9.751 0L31 24.27zM21.123 35.24l9.87-5.7 14.036 8.114c2.78 1.607 6.972 1.609 9.752.005l14.086-8.122 9.876 5.703c.11.064.219.15.327.23L49.907 52.282 20.808 35.463c.105-.077.209-.162.315-.223zm10.663 61.45c0 .133-.01.24-.024.325a2.135 2.135 0 0 1-.291-.142L7.159 82.836C5.8 82.05 4.565 79.91 4.565 78.343V50.256c0-.13.009-.236.022-.32.08.032.175.076.286.142l9.091 5.255v14.67c0 3.21 2.097 6.843 4.877 8.446l12.953 7.479zm15.554-7.058-10.98-6.34.01-14.652c0-3.209-2.093-6.84-4.87-8.446l-12.97-7.498V39.733c0-.096.019-.2.028-.298l29.067 16.8-.023 33.516c-.087-.04-.181-.073-.262-.119Zm5.189 0c-.111.064-.24.115-.362.168l.02-33.562 29.126-16.793c.009.095.027.195.027.286v13.082l-12.889 7.431c-2.78 1.604-4.878 5.233-4.88 8.443l-.01 14.573zM68.123 85.9l12.9-7.45c2.782-1.603 4.879-5.234 4.879-8.446V55.455l9.219-5.317c.114-.065.211-.11.29-.141.014.084.023.19.023.323V78.39c0 1.568-1.236 3.71-2.594 4.493L68.476 96.951l-.36.208z" fill="currentColor"/>
-                    </svg>
+            <div class="justify-items-end cursor-pointer font-bold font-dunbarbold lg:mx-10 mx-10 my-10 text-current  text-myred">
+                <div class="w-52 h-14 mt-8 text-lg">
+                   <h1>Nonce.Academy</h1>
                 </div>
             </div>
             <div class="font-semibold items-center text-xs lg:text-sm flex">
                 <a href="#" class="lg:mx-10 mx-3">About</a>
                 <a href="#" class="lg:mx-10 mx-3 lg:w-12">Log in</a>
-                <button class="lg:py-2 px-5 lg:mr-12 mx-5 lg:w-52 w-24 rounded-full bg-gradient-to-l from-mediumpurple to-bluepurple hover:from-bluepurple hover:to-mediumpurple hover:bg-gradient-to-r text-white">Join discord →</button>
+                <button class="lg:py-2 px-5 lg:mr-12 mx-5 lg:w-52 w-24 rounded-full bg-gradient-to-r from-myred to-light hover:from-light hover:to-myred hover:bg-gradient-to-r text-white">Join discord →</button>
             </div>
           <!-- Hamburger menu -->
          <div id="hamber" class=" flex-col justify-end mr-5 hidden">
@@ -35,44 +34,62 @@
         </div>
             </div>  
         </nav>
-            <main class=" bg-blackpurple bg-gradient-to-t from-mediumpurple">
+            <main class=" bg-dark bg-gradient-to-t from-mediumpurple">
                 <!--Entrance view-->
                <div class="flex justify-center items-center lg:items-start lg:flex-row flex-col">
                 <div class="text-mygreen flex lg:h-96 lg:w-96 w-60 lg:mt-60 mt-20 lg:mx-20 mx-28 animate-float">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 120 120" fill="none"><g filter="url(#a)"><path d="m74.76 102.904 24.364-14.067c2.779-1.603 4.876-5.234 4.876-8.446V52.318c0-1.969-.816-3.568-2.238-4.39-1.423-.821-3.215-.728-4.92.255l-6.939 4v-10.45c0-3.21-2.097-6.84-4.876-8.446l-7.591-4.384 5.737-3.309c4.879-2.813 4.879-2.813 4.879-4.16 0-1.346 0-1.348-4.877-4.163L58.81 3.205c-2.78-1.607-6.972-1.607-9.752 0L24.693 17.271c-4.877 2.817-4.877 2.817-4.877 4.156 0 1.339 0 1.339 4.873 4.155l5.743 3.321-7.591 4.384c-2.78 1.605-4.877 5.234-4.877 8.446v10.325l-6.805-3.933c-1.704-.985-3.498-1.08-4.92-.259C4.817 48.688 4 50.286 4 52.256v28.087c0 3.21 2.097 6.842 4.876 8.446l24.313 14.037c1.704.983 3.5 1.077 4.92.256 1.424-.82 2.24-2.421 2.241-4.388l.007-8.134 8.701 5.024c2.78 1.605 6.972 1.605 9.752 0l8.747-5.05-.006 8.657v.058c0 5.062.003 5.067 1.086 5.75l.155.09c1.138.601 1.138.601 5.968-2.185ZM26.975 21.631l-.352-.204.352-.204L51.34 7.156c1.36-.785 3.83-.785 5.187 0l24.366 14.067.36.21-.36.208-8.023 4.627L58.81 18.15c-2.78-1.605-6.972-1.605-9.751 0L35 26.27l-8.025-4.638ZM25.123 37.24l9.87-5.7 14.036 8.114c2.78 1.607 6.972 1.609 9.752.005l14.086-8.122 9.876 5.703c.11.064.219.15.327.23L53.907 54.281 24.808 37.464c.105-.078.209-.163.315-.224Zm10.663 61.45c0 .133-.01.24-.024.325a2.135 2.135 0 0 1-.291-.142L11.159 84.836C9.8 84.05 8.565 81.91 8.565 80.343V52.256c0-.13.009-.236.022-.32.08.032.175.076.286.142l9.092 5.255v14.67c0 3.21 2.096 6.843 4.876 8.446l12.953 7.478-.008 10.764Zm15.554-7.058-10.98-6.34.01-14.652c0-3.209-2.093-6.84-4.87-8.446l-12.97-7.498V41.733c0-.096.019-.2.028-.298l29.067 16.8-.023 33.516c-.087-.04-.181-.073-.262-.119Zm5.189 0c-.111.064-.24.114-.362.168l.02-33.562 29.126-16.793c.009.095.027.195.027.286v13.082l-12.889 7.431c-2.78 1.604-4.878 5.233-4.88 8.443l-.01 14.573-11.032 6.372ZM72.123 87.9l12.9-7.45c2.782-1.603 4.879-5.234 4.879-8.446V57.455l9.219-5.316c.114-.066.211-.112.29-.142.014.084.023.19.023.322v28.072c0 1.568-1.236 3.71-2.594 4.493L72.476 98.952l-.36.208.007-11.26Z" fill="#1DC690"/></g><defs><filter id="a" x="0" y="0" width="108" height="111.409" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="2"/><feGaussianBlur stdDeviation="2"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix values="0 0 0 0 0.152941 0 0 0 0 0.541176 0 0 0 0 0.690196 0 0 0 0.2 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow_842_1340"/><feBlend in="SourceGraphic" in2="effect1_dropShadow_842_1340" result="shape"/></filter></defs>
-                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="350" height="355" viewBox="0 0 120 120" fill="none">
+                        <g filter="url(#filter0_d_842_1340)">
+                        <path d="M74.7595 102.904L99.1235 88.8374C101.903 87.2337 104 83.6034 104 80.3915V52.318C104 50.3492 103.184 48.75 101.762 47.9284C100.339 47.1068 98.5469 47.1996 96.8428 48.1825L89.9032 52.1826V41.7328C89.9032 38.5224 87.8065 34.8921 85.0267 33.2869L77.4359 28.9034L83.1735 25.5941C88.0515 22.7808 88.0515 22.7808 88.0515 21.4343C88.0515 20.0878 88.0515 20.0862 83.175 17.2714L58.8095 3.20504C56.0297 1.59832 51.8379 1.59832 49.0581 3.20504L24.6926 17.2714C19.8161 20.0878 19.8161 20.0878 19.8161 21.4267C19.8161 22.7656 19.8161 22.7656 24.6895 25.5819L30.4317 28.9034L22.8409 33.2869C20.0611 34.8921 17.9645 38.5209 17.9645 41.7328V52.0578L11.1587 48.1247C9.45463 47.1403 7.66076 47.0459 6.23967 47.866C4.81553 48.6877 4 50.2868 4 52.2556V80.3428C4 83.5532 6.09665 87.185 8.87645 88.7887L33.1887 102.826C34.8928 103.809 36.6882 103.903 38.1093 103.082C39.5334 102.262 40.349 100.661 40.3505 98.6938L40.3566 90.5597L49.0581 95.5838C51.8379 97.189 56.0297 97.189 58.8095 95.5838L67.5567 90.5339L67.5506 99.1913C67.5506 99.2111 67.5506 99.2293 67.5506 99.2491C67.5506 104.311 67.5536 104.316 68.637 104.999L68.7922 105.089C69.9303 105.69 69.9303 105.69 74.7595 102.904V102.904ZM26.9749 21.6306C26.8562 21.5621 26.739 21.4952 26.6234 21.4267C26.739 21.3597 26.8562 21.2928 26.9749 21.2228L51.3404 7.15641C52.6991 6.37131 55.17 6.37131 56.5272 7.15641L80.8928 21.2228C81.0145 21.2943 81.1347 21.3643 81.2534 21.4328C81.1347 21.5012 81.0145 21.5712 80.8928 21.6412L72.8698 26.2682L58.811 18.1494C56.0312 16.5442 51.8394 16.5442 49.0596 18.1494L34.9993 26.2682L26.9749 21.6306ZM25.1232 37.2398L34.9932 31.5402L49.0292 39.6544C51.809 41.2612 56.0008 41.2627 58.7806 39.659L72.8668 31.5372L82.7429 37.2398C82.8525 37.3037 82.962 37.3904 83.0701 37.4695L53.9072 54.2823L24.8082 37.4635C24.9132 37.3859 25.0167 37.3007 25.1232 37.2398ZM35.786 98.6907C35.786 98.8231 35.7753 98.9296 35.7616 99.0148C35.6825 98.9844 35.5851 98.9387 35.471 98.8733L11.1587 84.8358C9.80001 84.0507 8.56454 81.9099 8.56454 80.3428V52.2556C8.56454 52.1263 8.57367 52.0198 8.58736 51.9361C8.66648 51.9681 8.76234 52.0122 8.87341 52.0776L17.9645 57.3329V72.0033C17.9645 75.2137 20.0611 78.8456 22.8409 80.4493L35.7936 87.9275L35.786 98.6907ZM51.3404 91.6324L40.3596 85.2923L40.3703 70.6401C40.3703 67.4312 38.2767 63.8009 35.4999 62.1942L22.5305 54.6961V41.7328C22.5305 41.637 22.5488 41.5335 22.5579 41.4346L51.6249 58.2352L51.6021 91.7511C51.5154 91.7115 51.421 91.6781 51.3404 91.6324V91.6324ZM56.5288 91.6324C56.4177 91.6963 56.2899 91.7465 56.1666 91.7998L56.1879 58.2382L85.3128 41.4453C85.3219 41.5396 85.3401 41.64 85.3401 41.7313V54.8133L72.4514 62.2444C69.6716 63.848 67.5734 67.4768 67.5704 70.6872L67.5613 85.2603L56.5288 91.6324ZM72.1228 87.8986L85.0237 80.4493C87.805 78.8456 89.9016 75.2153 89.9016 72.0033V57.4546L99.1205 52.1385C99.2346 52.073 99.332 52.0274 99.4111 51.997C99.4248 52.0806 99.4339 52.1871 99.4339 52.3195V80.3915C99.4339 81.9586 98.1985 84.1009 96.8397 84.8845L72.4757 98.9509C72.354 99.0209 72.2338 99.0909 72.1151 99.1593L72.1228 87.8986Z" fill="#DA0037"/>
+                        </g>
+                        <defs>
+                        <filter id="filter0_d_842_1340" x="0" y="0" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="2"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.395833 0 0 0 0 0.548261 0 0 0 0.2 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_842_1340"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_842_1340" result="shape"/>
+                        </filter>
+                        </defs>
+                        </svg>
                 </div>
-                   <h1 class=" font-bold text-center text-lightpink lg:text-7xl text-4xl lg:pt-56 pt-8 lg:pb-48 pb-8 lg:my-20 my-0 leading-relaxed">WE ARE <br> DECENTRALIZING <br> THE <span class="animate-ping text-transparent py-5 bg-clip-text bg-gradient-to-r from-mygreen to-myblue" >
+                   <h1 id="title" class="animate-fadeIn text-left font-dunbarlight text-4xl lg:text-7xl text-light lg:pt-52 pt-8 lg:pb-48 pb-8 lg:my-5 my-0">WE ARE <br> <span class="font-dunbarbold">DECENTRALIZING</span> <br> <span class="font-dunbarbold text-transparent py-5 bg-clip-text bg-gradient-to-r from-myred to-light" >
                      CODE
                     </span>
                 </h1>
-                 
+                </div>
+                <div class="flex justify-center items-center animate-bounce">
+                    <img  class="w-30 h-30 -mt-10" src="./Pics/scroll.png" alt="Scroll down">
                 </div>
                 <!--Navigation cards-->
                 <div class="flex flex-col py-36 lg:mb-20 mb-0">
-                    <h2 class="flex justify-center font-bold lg:text-7xl text-4xl items-center text-lightpink">Learn By <span class="text-transparent mx-3 py-5 bg-clip-text bg-gradient-to-r from-mygreen to-myblue" > Doing. </span></h2>
-                    <h4 class="flex justify-center text-xl items-center text-lightpink">Actually build cool shit</h4>
-                    <div class="flex lg:flex-row flex-col justify-center items-center w-screen  text-lightpink ">
-                    <div class="m-10 flex flex-col items-center bg-gradient-to-b rounded-lg from-mygreen">
+                    <h2 class="flex justify-center font-bold lg:text-7xl text-4xl items-center text-light">Learn By <span class="text-transparent mx-3 py-5 bg-clip-text bg-gradient-to-r from-myred to-mygray" > Doing. </span></h2>
+                    <h4 class="flex justify-center text-xl items-center text-light">Actually build cool shit</h4>
+                    <div class="flex lg:flex-row flex-col justify-center items-center w-screen  text-light ">
+                    <div class="m-10 flex flex-col items-center bg-gradient-to-b rounded-lg from-mygray">
                         <img src="./Pics/Hand coding-rafiki.png" alt="coding"  class=" w-72 h-72" ><p class="flex justify-center font-bold items-center w-80 mb-6 text-center">Build meaningful projects that you can show off and share!</p></div>
-                    <div  class="m-10 flex flex-col items-center bg-gradient-to-b rounded-lg from-lightpurple ">
+                    <div  class="m-10 flex flex-col items-center bg-gradient-to-b rounded-lg from-myred">
                         <img src="./Pics/Coding workshop-rafiki.png" alt="group coding" class=" w-72 h-72"><p class="flex justify-center font-bold items-center w-80 text-center">Team up with other developers around world with the same goal and grow together!</p></div>
-                    <div  class="m-10 flex flex-col items-center bg-gradient-to-b rounded-lg from-myblue"><img src="./Pics/Awards-pana (1).png" alt="winning"  class=" w-72 h-72"><p class="flex justify-center font-bold items-center mb-6 w-80 text-center">Take part in exclusive hackathons, test your skills and win prizes!</p>
+                    <div  class="m-10 flex flex-col items-center bg-gradient-to-b rounded-lg from-mygray"><img src="./Pics/Awards-pana (1).png" alt="winning"  class=" w-72 h-72"><p class="flex justify-center font-bold items-center mb-6 w-80 text-center">Take part in exclusive hackathons, test your skills and win prizes!</p>
                     </div>
                 </div>
-                </div>
+                </div>.
+
                 <!--Navigation chart-->
                 <div class="flex flex-col ">
-                      <h2 class="flex justify-center text-lightpink font-bold lg:text-7xl text-4xl items-center">Learn <span class="text-transparent mx-3 py-5 bg-clip-text bg-gradient-to-r  from-mygreen to-myblue" > Progressively. </span></h2>
-                     <h4 class="flex justify-center lg:text-xl text-sm items-center text-lightpink mb-10">Cover topics from A to Z</h4>
+                      <h2 class="flex justify-center text-light font-bold lg:text-7xl text-4xl items-center">Learn <span class="text-transparent mx-3 py-5 bg-clip-text bg-gradient-to-r  from-myred to-mygray" > Progressively. </span></h2>
+                     <h4 class="flex justify-center lg:text-xl text-sm items-center text-light mb-10">Cover topics from A to Z</h4>
                     <div>
                     <div class="border-2-2 absolute border-opacity-70 md:border  border-gray-100 h-4/6 left-1/2"></div>
                     <div class="mb-8 flex justify-between items-center w-screen right-timeline">
                         <div class="order-1 lg:w-5/12 w-0"></div>
-                        <div class="z-20 lg:flex hidden items-center order-1 bg-gray-800 shadow-xl p-3 rounded-lg ml-3">
+                        <div class="z-20 lg:flex hidden items-center order-1 bg-mygray shadow-xl p-3 rounded-lg ml-6">
                            <h1 class="mx-auto font-semibold text-lg text-white uppercase">Freshman</h1>
                        </div>
-                     <div class="order-1 bg-gradient-to-br from-purple-600 to-red-400 text-gray-100 rounded-lg shadow-xl  lg:w-5/12 w-11/12  px-6 py-4 cursor-pointer hover:transform hover:-translate-y-1 mr-8 lg:mr-8">
+                     <div class="order-1 bg-gradient-to-br  from-myred to-mygray text-gray-100 rounded-lg shadow-xl  lg:w-5/12 w-11/12  px-6 py-4 cursor-pointer hover:transform hover:-translate-y-1 mr-8 lg:mr-8">
                       <h3 class="mb-3 font-bold text-xl">Freshman Track</h3>
                       <p class="text-sm leading-snug tracking-wide text-opacity-100">Get started with Web3. Take a crash course on Javascript. Set up your development environment. Learn high level concepts, and build your first few applications!</p>
                          </div>
@@ -80,30 +97,30 @@
                     </div>
                     <div class="mb-8 flex justify-between flex-row-reverse items-center w-screen left-timeline">
                         <div class="order-1 lg:w-5/12 w-0"></div>
-                        <div class="z-20 lg:flex hidden items-center order-1 bg-gray-800 shadow-xl p-3 rounded-lg mr-10">
+                        <div class="z-20 lg:flex hidden items-center order-1 bg-mygray shadow-xl p-3 rounded-lg mr-6">
                             <h1 class="mx-auto text-white font-semibold text-lg uppercase">Saphomore</h1>
                         </div>
-                        <div class="order-1 bg-gradient-to-br from-purple-600 to-yellow-400 text-gray-100 rounded-lg shadow-xl  lg:w-5/12 w-11/12  px-6 py-4 cursor-pointer hover:transform hover:-translate-y-1 ml-4 lg:ml-4">
+                        <div class="order-1 bg-gradient-to-br  from-myred to-mygray text-gray-100 rounded-lg shadow-xl  lg:w-5/12 w-11/12  px-6 py-4 cursor-pointer hover:transform hover:-translate-y-1 ml-4 lg:ml-4">
                             <h3 class="mb-3 font-bold text-white text-xl">Sophomore Track</h3>
                             <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Get deeper into blockchain concepts. Learn about gas, mining, and consensus. Get better at Solidity. Build full stack dApps, NFT collections, ICO tokens, a DAO, and a DeFi protocol.</p>
                         </div>
                     </div>
                     <div class="mb-8 flex justify-between  items-center w-screen right-timeline">
                         <div class="order-1 lg:w-5/12 w-0"></div>
-                        <div class="z-20 lg:flex hidden items-center order-1 bg-gray-800 shadow-xl p-3 rounded-lg ml-3">
+                        <div class="z-20 lg:flex hidden items-center order-1 bg-mygray shadow-xl p-3 rounded-lg ml-6">
                             <h1 class="mx-auto text-white font-semibold text-lg uppercase">Junior</h1>
                         </div>
-                        <div class="order-1 bg-gradient-to-br from-purple-500 to-pink-500 text-gray-100 rounded-lg shadow-xl lg:w-5/12 w-11/12 px-6 py-4 cursor-pointer hover:transform hover:-translate-y-1 mr-8 lg:mr-8">
+                        <div class="order-1 bg-gradient-to-br  from-myred to-mygray text-gray-100 rounded-lg shadow-xl lg:w-5/12 w-11/12 px-6 py-4 cursor-pointer hover:transform hover:-translate-y-1 mr-8 lg:mr-8">
                             <h3 class="mb-3 font-bold text-white text-xl">Junior Track</h3>
                             <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Build a decentralized exchange. Learn about gas optimizations in smart contracts. Learn advanced Solidity design patterns. Think like a hacker and try to break vulnerable smart contracts.</p>
                         </div>
                     </div>
                     <div class="mb-8 flex justify-between flex-row-reverse  items-center w-screen left-timeline">
                         <div class="order-1 lg:w-5/12 w-0"></div>
-                        <div class="z-20 lg:flex hidden items-center order-1 bg-gray-800 shadow-xl p-3 rounded-lg mr-10">
+                        <div class="z-20 lg:flex hidden items-center order-1 bg-mygray shadow-xl p-3 rounded-lg mr-6">
                             <h1 class="mx-auto text-white font-semibold text-lg uppercase">Senior</h1>
                         </div>
-                        <div class="order-1 bg-gradient-to-br from-purple-500 to-green-500 text-gray-100 rounded-lg shadow-xl  lg:w-5/12 w-11/12  px-6 py-4 cursor-pointer hover:transform hover:-translate-y-1 ml-4 lg:ml-4">
+                        <div class="order-1 bg-gradient-to-br  from-myred to-mygray text-gray-100 rounded-lg shadow-xl  lg:w-5/12 w-11/12  px-6 py-4 cursor-pointer hover:transform hover:-translate-y-1 ml-4 lg:ml-4">
                             <h3 class="mb-3 font-bold text-white text-xl">Senior Track</h3>
                             <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Build a decentralized exchange. Learn about gas optimizations in smart contracts. Learn advanced Solidity design patterns. Think like a hacker and try to break vulnerable smart contracts.</p>
                         </div>
@@ -112,28 +129,19 @@
                 <!--footer-->
                 <footer class="pt-36">
                     <div class="flex flex-row justify-center space-x-30">
-                    <div class="justify-items-center cursor-pointer lg:w-20 lg:h-20 w-20 h-20 mx-20 mb-5 text-white">
+                    <div class="justify-items-center cursor-pointer lg:w-20 lg:h-20 w-20 h-20 mx-20 mb-5 text-myred">
                         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 120 120">
                             <path d="m70.76 100.904 24.364-14.067c2.78-1.603 4.876-5.234 4.876-8.446V50.318c0-1.969-.816-3.568-2.238-4.39-1.423-.821-3.215-.728-4.92.255l-6.939 4v-10.45c0-3.21-2.096-6.84-4.876-8.446l-7.591-4.384 5.738-3.309c4.877-2.813 4.877-2.813 4.877-4.16 0-1.346 0-1.348-4.876-4.163L54.81 1.205c-2.78-1.607-6.972-1.607-9.752 0L20.693 15.271c-4.877 2.817-4.877 2.817-4.877 4.156 0 1.339 0 1.339 4.874 4.155l5.742 3.321-7.591 4.384c-2.78 1.605-4.877 5.234-4.877 8.446v10.325L7.16 46.125c-1.704-.985-3.498-1.08-4.92-.259C.817 46.688 0 48.286 0 50.256v28.087c0 3.21 2.097 6.842 4.876 8.446l24.313 14.037c1.704.983 3.5 1.077 4.92.256 1.424-.82 2.24-2.42 2.241-4.388l.007-8.134 8.701 5.024c2.78 1.605 6.972 1.605 9.752 0l8.747-5.05-.006 8.657v.058c0 5.062.003 5.067 1.086 5.75l.155.09c1.138.6 1.138.6 5.968-2.185zM22.975 19.63l-.352-.204.352-.204L47.34 5.156c1.36-.785 3.83-.785 5.187 0l24.366 14.067.36.21-.36.208-8.023 4.627L54.81 16.15c-2.78-1.605-6.972-1.605-9.751 0L31 24.27zM21.123 35.24l9.87-5.7 14.036 8.114c2.78 1.607 6.972 1.609 9.752.005l14.086-8.122 9.876 5.703c.11.064.219.15.327.23L49.907 52.282 20.808 35.463c.105-.077.209-.162.315-.223zm10.663 61.45c0 .133-.01.24-.024.325a2.135 2.135 0 0 1-.291-.142L7.159 82.836C5.8 82.05 4.565 79.91 4.565 78.343V50.256c0-.13.009-.236.022-.32.08.032.175.076.286.142l9.091 5.255v14.67c0 3.21 2.097 6.843 4.877 8.446l12.953 7.479zm15.554-7.058-10.98-6.34.01-14.652c0-3.209-2.093-6.84-4.87-8.446l-12.97-7.498V39.733c0-.096.019-.2.028-.298l29.067 16.8-.023 33.516c-.087-.04-.181-.073-.262-.119Zm5.189 0c-.111.064-.24.115-.362.168l.02-33.562 29.126-16.793c.009.095.027.195.027.286v13.082l-12.889 7.431c-2.78 1.604-4.878 5.233-4.88 8.443l-.01 14.573zM68.123 85.9l12.9-7.45c2.782-1.603 4.879-5.234 4.879-8.446V55.455l9.219-5.317c.114-.065.211-.11.29-.141.014.084.023.19.023.323V78.39c0 1.568-1.236 3.71-2.594 4.493L68.476 96.951l-.36.208z" fill="currentColor"/>
                         </svg>
                            </div>
-                    <ul class="flex flex-col text-white mx-20 font-bold">
+                    <ul class="flex flex-col text-myred mx-20 font-bold">
                         <li><a href="#">Twitter</a></li>
                         <li><a href="#">Instagram</a></li>
                         <li><a href="#">Github</a></li>
                     </ul>
                 </div>
-                    <h4 class="text-gray-100 text-xs lg:text-base flex justify-center items-center pb-5 mt-10"> &#169 Copyright 2022 by MetaVAS</h4>
+                    <h4 class="text-mygray text-xs lg:text-base flex justify-center items-center pb-5 mt-10"> &#169 Copyright 2022 by MetaVAS</h4>
                 </footer>
             </main>
-            <!--JavaScript code-->
-            <script>
-                const element = document.getElementById("hamber");
-               element.addEventListener("click", function() {
-                    document.getElementById("bar1").style.transform="rotate(-45deg) translate(-10px, 5px)";
-                    document.getElementById("bar2").style.opacity="0";
-                    document.getElementById("bar3").style.transform="rotate(45deg) translate(-6px, -2px)";
-                });
-            </script>
     </body>
 </html>

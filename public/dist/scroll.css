@@ -1,0 +1,33 @@
+body::-webkit-scrollbar {
+    width: 6px;
+} 
+
+body::-webkit-scrollbar-track {
+    background-color: #444444;
+}
+
+body::-webkit-scrollbar-thumb {
+    box-shadow: inset 2rem 2rem #da0037;
+    border-radius: 30rem;
+}
+
+#scroll-percent {
+     position: fixed;
+     top: 0;
+     width: 100vw;
+     color: #000;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ 
+[data-scrollPercentage] .percentage {
+ display: inline-block;
+ background-color: #FB3C3F;
+ height: 4px;
+ width: 0;
+ }
+
+ #title {
+ line-height: 7rem;
+ }

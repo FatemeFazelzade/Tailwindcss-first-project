@@ -1,0 +1,72 @@
+@font-face {
+  src: url('[Your url to woff2 file here.]');
+  font-family:'Dunbar';
+  font-style: normal;
+}
+ 
+/* text: WE ARE */
+#text1 {
+  font-family: 'Dunbar';
+  font-size: 127px; 
+  position: absolute; 
+  left: 86px; 
+  top: 144px; 
+  font-variation-settings:
+    'wght' 300,
+    'XHGT' 574,
+    'opsz' 36; 
+}
+
+/* text: 
+ */
+#text7 {
+  font-family: 'Dunbar';
+  font-size: 100px; 
+  position: absolute; 
+  left: 92px; 
+  top: 437px; 
+  font-variation-settings:
+    'wght' 400,
+    'XHGT' 574,
+    'opsz' 36; 
+}
+
+/* text: CODE */
+#text8 {
+  font-family: 'Dunbar';
+  font-size: 127px; 
+  position: absolute; 
+  left: 327px; 
+  top: 411px; 
+  font-variation-settings:
+    'wght' 400,
+    'XHGT' 574,
+    'opsz' 36; 
+}
+
+/* text: DECENTRALIZING
+ */
+#text9 {
+  font-family: 'Dunbar';
+  font-size: 127px; 
+  position: absolute; 
+  left: 87px; 
+  top: 273px; 
+  font-variation-settings:
+    'wght' 400,
+    'XHGT' 574,
+    'opsz' 36; 
+}
+
+/* text: THE */
+#text10 {
+  font-family: 'Dunbar';
+  font-size: 127px; 
+  position: absolute; 
+  left: 91px; 
+  top: 411px; 
+  font-variation-settings:
+    'wght' 300,
+    'XHGT' 574,
+    'opsz' 36; 
+}
